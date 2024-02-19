@@ -1,0 +1,15 @@
+[package]
+name = "mvp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "setup"
+path = "src/test.rs"
+
+[dependencies]
+rand = "0.8.5"
+lambdaworks-math = { git = "https://github.com/lambdaclass/lambdaworks.git" }
+lambdaworks-crypto = { git = "https://github.com/lambdaclass/lambdaworks.git" }
